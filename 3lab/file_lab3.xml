@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <tourCatalog>
 	<tour>
-		<title>Обзорная экскурсия по Минску</title>
+		<title>ГЋГЎГ§Г®Г°Г­Г Гї ГЅГЄГ±ГЄГіГ°Г±ГЁГї ГЇГ® ГЊГЁГ­Г±ГЄГі</title>
 		<price>50</price>
 		<date>25.09.2023</date>
 		<numberOfPeople>8</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия Замки Мир - Несвиж</title>
+		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г‡Г Г¬ГЄГЁ ГЊГЁГ° - ГЌГҐГ±ГўГЁГ¦</title>
 		<price>135</price>
 		<date>26.09.2023</date>
 		<numberOfPeople>12</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия Хатынь - Курган Славы</title>
+		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г•Г ГІГ»Г­Гј - ГЉГіГ°ГЈГ Г­ Г‘Г«Г ГўГ»</title>
 		<price>60</price>
 		<date>26.09.2023</date>
 		<numberOfPeople>2</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия Брест - Брестская Крепость - Беловежская пуща</title>
+		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї ГЃГ°ГҐГ±ГІ - ГЃГ°ГҐГ±ГІГ±ГЄГ Гї ГЉГ°ГҐГЇГ®Г±ГІГј - ГЃГҐГ«Г®ГўГҐГ¦Г±ГЄГ Гї ГЇГіГ№Г </title>
 		<price>160</price>
 		<date>27.09.2023</date>
 		<numberOfPeople>26</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия на завод БелАЗ</title>
+		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г­Г  Г§Г ГўГ®Г¤ ГЃГҐГ«ГЂГ‡</title>
 		<price>75</price>
 		<date>29.09.2023</date>
 		<numberOfPeople>4</numberOfPeople>
