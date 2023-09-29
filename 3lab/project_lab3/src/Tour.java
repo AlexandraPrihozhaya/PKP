@@ -26,4 +26,22 @@ public class Tour {
     public int getNumberOfPeople() {
         return numberOfPeople;
     }
+
+//    @Override
+//    public boolean hasNext() {
+//        return false;
+//    }
+//
+//    @Override
+//    public Object next() {
+//        return null;
+//    }
+
+    public void payTicket() {
+        System.out.println("\nБилет успешно оплачен, итого " + price + " руб.");
+    }
+
+    public void buyTicket() {
+        System.out.println("Вы успешно приобрели билет на тур \"" + title + "\"");
+    }
 }
