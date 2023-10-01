@@ -9,15 +9,16 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
-public class MyClass {
-    public static void main(String[] args) {
+public class DOMParser implements Parser {
+
+    @Override
+    public void parse() {
         List<Tour> tourCatalog = new ArrayList<>();
 
         try {
             DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            Document document = builder.parse("scheme.xml");
+            Document document = builder.parse("parser.xml");
 
             Element tourcat = document.getDocumentElement();
 
@@ -51,7 +52,7 @@ public class MyClass {
                 }
             }
 
-            System.out.println("Туры по Беларуси:\n");
+            System.out.println("\n=====DOMParsing=====\n");
             for (Tour tour:tourCatalog) {
                 System.out.println("Название: " + tour.getTitle() + "\nЦена: " + tour.getPrice() + " руб." +
                         "\nДата: " + tour.getDate() + "\nКоличество людей: " + tour.getNumberOfPeople());
@@ -64,27 +65,6 @@ public class MyClass {
             System.out.println("Файл формата xml не найден в папке проекта");
         } catch (SAXException e) {
             System.out.println("Ошибка при парсинге");
-        }
-
-        System.out.print("\nВведите номер тура, для которого хотите купить билет: ");
-        Scanner scanner = new Scanner(System.in);
-        int numberOfTour = scanner.nextInt();
-
-        try {
-            //pattern adapter, singleton, state
-            Internet internet = Internet.getInstance(tourCatalog.get(numberOfTour - 1));
-            internet.buyTicketFromInternet();
-
-            State sellTicket = new SellTicket();
-            State buyTicket = new BuyTicket();
-
-            internet.setState(sellTicket);
-            internet.doAction();
-            internet.setState(buyTicket);
-            internet.doAction();
-
-        } catch (Exception e) {
-            System.out.println("\nВведено некорректное значение");
         }
     }
 }

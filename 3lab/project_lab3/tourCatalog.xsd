@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="tourCatalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="tour">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title" type="xs:string" />
+							<xs:element name="price" type="xs:unsignedByte" />
+							<xs:element name="date" type="xs:string" />
+							<xs:element name="numberOfPeople" type="xs:unsignedByte" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
