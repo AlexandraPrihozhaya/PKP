@@ -1,16 +1,4 @@
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
 public class TourParser {
     public static void main(String[] args) {
 
@@ -30,7 +18,7 @@ public class TourParser {
                     choice = scanner.nextInt();
                 }
 
-                Factory factory = new Factory();
+                Factory factory = Factory.getInstance();
                 Parser parser = factory.getCurrentParser(choice);
                 parser.parse();
             } catch (Exception e) {
@@ -43,27 +31,5 @@ public class TourParser {
 
         } while(choice2 == 1);
 
-
-
-//        System.out.print("\nВведите номер тура, для которого хотите купить билет: ");
-//        Scanner scanner = new Scanner(System.in);
-//        int numberOfTour = scanner.nextInt();
-//
-//        try {
-//            //pattern adapter, singleton, state
-//            Internet internet = Internet.getInstance(tourCatalog.get(numberOfTour - 1));
-//            internet.buyTicketFromInternet();
-//
-//            State sellTicket = new SellTicket();
-//            State buyTicket = new BuyTicket();
-//
-//            internet.setState(sellTicket);
-//            internet.doAction();
-//            internet.setState(buyTicket);
-//            internet.doAction();
-//
-//        } catch (Exception e) {
-//            System.out.println("\nВведено некорректное значение");
-//        }
     }
 }

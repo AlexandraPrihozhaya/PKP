@@ -13,19 +13,19 @@
 		<numberOfPeople>12</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия Хатынь - Курган Славы</title>
+		<title>Экскурсия на Курган Славы</title>
 		<price>60</price>
 		<date>26.09.2023</date>
-		<numberOfPeople>2</numberOfPeople>
+		<numberOfPeople>20</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия Брест - Брестская Крепость - Беловежская пуща</title>
+		<title>Экскурсия Брестская Крепость</title>
 		<price>160</price>
 		<date>27.09.2023</date>
 		<numberOfPeople>26</numberOfPeople>
 	</tour>
 	<tour>
-		<title>Экскурсия на завод БелАЗ</title>
+		<title>Обзорная экскурсия по Гродно</title>
 		<price>75</price>
 		<date>29.09.2023</date>
 		<numberOfPeople>4</numberOfPeople>

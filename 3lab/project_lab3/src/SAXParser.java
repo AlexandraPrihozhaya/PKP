@@ -27,6 +27,4 @@ public class SAXParser implements Parser {
 
     }
 
-    //ParserConfigurationException, SAXException
-
 }

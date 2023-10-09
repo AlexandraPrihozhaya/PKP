@@ -3,17 +3,13 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class XMLHandler extends DefaultHandler {
     private StringBuilder text = new StringBuilder();
-    private String isbn;
     private String title;
     private int price;
     private String date;
     private int numberOfPeople;
 
     public void startElement(String u, String m, String n, Attributes a) {
-        if ("tour".equals(n)) {
-            isbn = null;
-        } else
-            if ("title".equals(n) || "price".equals(n) || "date".equals(n) || "numberOfPeople".equals(n)) {
+        if ("title".equals(n) || "price".equals(n) || "date".equals(n) || "numberOfPeople".equals(n)) {
             text.setLength(0);
         }
     }
