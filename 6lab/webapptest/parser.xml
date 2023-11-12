@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <tourCatalog>
 	<tour>
-		<title>ГЋГЎГ§Г®Г°Г­Г Гї ГЅГЄГ±ГЄГіГ°Г±ГЁГї ГЇГ® ГЊГЁГ­Г±ГЄГі</title>
+		<title>Обзорная экскурсия по Минску</title>
 		<price>50</price>
 		<date>25.09.2023</date>
+		<numberOfDays>1</numberOfDays>
 		<numberOfPeople>8</numberOfPeople>
 	</tour>
 	<tour>
-		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г‡Г Г¬ГЄГЁ ГЊГЁГ° - ГЌГҐГ±ГўГЁГ¦</title>
+		<title>Экскурсия Замки Мир - Несвиж</title>
 		<price>135</price>
 		<date>26.09.2023</date>
+		<numberOfDays>2</numberOfDays>
 		<numberOfPeople>12</numberOfPeople>
 	</tour>
 	<tour>
-		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г•Г ГІГ»Г­Гј - ГЉГіГ°ГЈГ Г­ Г‘Г«Г ГўГ»</title>
+		<title>Экскурсия на Курган Славы</title>
 		<price>60</price>
 		<date>26.09.2023</date>
+		<numberOfDays>1</numberOfDays>
+		<numberOfPeople>20</numberOfPeople>
+	</tour>
+	<tour>
+		<title>Экскурсия Брестская Крепость</title>
+		<price>160</price>
+		<date>27.09.2023</date>
+		<numberOfDays>2</numberOfDays>
 		<numberOfPeople>2</numberOfPeople>
 	</tour>
 	<tour>
-		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї ГЃГ°ГҐГ±ГІ - ГЃГ°ГҐГ±ГІГ±ГЄГ Гї ГЉГ°ГҐГЇГ®Г±ГІГј - ГЃГҐГ«Г®ГўГҐГ¦Г±ГЄГ Гї ГЇГіГ№Г </title>
-		<price>160</price>
-		<date>27.09.2023</date>
-		<numberOfPeople>26</numberOfPeople>
-	</tour>
-	<tour>
-		<title>ГќГЄГ±ГЄГіГ°Г±ГЁГї Г­Г  Г§Г ГўГ®Г¤ ГЃГҐГ«ГЂГ‡</title>
+		<title>Обзорная экскурсия по Гродно</title>
 		<price>75</price>
 		<date>29.09.2023</date>
+		<numberOfDays>3</numberOfDays>
 		<numberOfPeople>4</numberOfPeople>
 	</tour>
 </tourCatalog>
